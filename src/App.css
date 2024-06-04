@@ -1,0 +1,47 @@
+.background {
+  background-color: aqua;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 300px; /* Adjust width as needed */
+}
+
+.card img {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover; /* Scales image to fill container */
+}
+
+.card p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.count {
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+  font-size: 0.8rem; /* Adjust font size as needed */
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
